@@ -48,7 +48,11 @@ venv\Scripts\activate     # Windows
 ```bash
 pip install -r requirements.txt
 ```
+## Workflow
 
+### 1️⃣ Data Preprocessing
+![Data Preprocessing](path/to/data_preprocessing.png)  
+*Prepare LiDAR point clouds, extract patches, normalize, and create datasets.*
 ---
 
 ## Usage
