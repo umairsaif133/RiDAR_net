@@ -1,8 +1,8 @@
-# LiDAR Road Damage Detection
+# RiDAR_NET, a LiDAR-only Road Damage Detection model
 
 ## Overview
 
-This repository provides a complete pipeline for detecting and visualizing road damage (potholes) from LiDAR point cloud data using deep learning.
+This repository provides a complete pipeline for detecting and visualising road damage (potholes) from LiDAR point cloud data using deep learning.
 
 The project uses a combination of **RandLA-Net** and **KPConv** architectures for patch-based classification and detection.
 
@@ -10,7 +10,7 @@ The repository includes:
 - Model building, training, and inference scripts
 - Hyperparameter tuning with Ray Tune
 - Post-processing for per-location voting
-- High-resolution visualization of detected potholes versus ground truth
+- High-resolution visualisation of detected potholes versus ground truth
 
 ---
 
