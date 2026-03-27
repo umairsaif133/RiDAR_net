@@ -89,13 +89,6 @@ python visualization.py
 
 The visualization script generates high-resolution 2D comparison images between detected potholes and ground truth.
 
-### 3️⃣ Loss & Metrics Curves
-![Loss Curves](path/to/loss_curves.png)  
-*Training and validation loss, mIoU, and macro F1 curves.*
-
-### 4️⃣ Detection Visualization
-![Detection Visualization](path/to/detection_visualization.png)  
-*Ground-truth vs. detected potholes (red = detected, green = ground truth).*
 
 ---
 
