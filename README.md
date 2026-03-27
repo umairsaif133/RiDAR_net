@@ -92,5 +92,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Rohma Zainab - rohma@example.com
+Muhammad Umair - umair.muhammad@und.edu
 
