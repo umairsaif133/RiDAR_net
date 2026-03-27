@@ -8,7 +8,7 @@ The project uses a combination of **RandLA-Net** and **KPConv** architectures fo
 
 The repository includes:
 - Model building, training, and inference scripts
-- Hyperparameter tuning with Ray Tune
+- Hyperparameter tuning with Grid Search
 - Post-processing for per-location voting
 - High-resolution visualisation of detected potholes versus ground truth
 
