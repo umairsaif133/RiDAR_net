@@ -51,10 +51,12 @@ pip install -r requirements.txt
 ## Workflow
 
 ### 1️⃣ Data Preprocessing
-![Data Preprocessing](path/to/data_preprocessing.png)  
+![Data Preprocessing](images/data_preprocessing.png)  
 *Prepare LiDAR point clouds, extract patches, normalize, and create datasets.*
 ---
-
+### 2️⃣ Model Architecture
+![Model Architecture](images/model_architecture.png)  
+*RandLA-KPConv UNet classifier for multiscale point cloud segmentation.*
 ## Usage
 
 ### Training
@@ -79,6 +81,14 @@ python visualization.py
 ```
 
 The visualization script generates high-resolution 2D comparison images between detected potholes and ground truth.
+
+### 3️⃣ Loss & Metrics Curves
+![Loss Curves](path/to/loss_curves.png)  
+*Training and validation loss, mIoU, and macro F1 curves.*
+
+### 4️⃣ Detection Visualization
+![Detection Visualization](path/to/detection_visualization.png)  
+*Ground-truth vs. detected potholes (red = detected, green = ground truth).*
 
 ---
 
