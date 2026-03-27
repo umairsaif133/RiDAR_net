@@ -53,11 +53,18 @@ pip install -r requirements.txt
 ### 1️⃣ Data Preprocessing
 ![Data Preprocessing](images/data_preprocessing.png)  
 *Prepare LiDAR point clouds, extract patches, normalize, and create datasets.*
----
+
 ### 2️⃣ Model Architecture
 ![Model Architecture](images/model_architecture.png)  
 *RandLA-KPConv UNet classifier for multiscale point cloud segmentation.*
-## Usage
+
+### 3️⃣ Loss & Metrics Curves
+![Loss Curves](images/loss_curves.png)  
+*Training and validation loss, mIoU, and macro F1 curves.*
+
+### 4️⃣ Detection Visualization
+![Detection Visualization](images/detection_visualization.png)  
+*Ground-truth vs. detected potholes (red = detected, green = ground truth).*
 
 ### Training
 ```bash
